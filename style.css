@@ -1,0 +1,143 @@
+@font-face
+{
+    font-family: Cream Cake;
+    src: url(Cream\ Cake.otf);
+}
+
+body {
+    font-family: 'Cream Cake',sans-serif;
+    background-color: rgb(255,252,237);
+    margin: 0;
+    padding: 0;
+}
+
+.main-title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+/*Navbar :*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112,146,186);
+    list-style-type: none;
+}
+.navbar li{
+    float: left;
+    font-size: 25px;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 1mm;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+/*mainOpen*/
+
+@keyframes slideRight1 {
+    0%{
+        left: 0;
+    }
+    100%{
+        margin-left: 12.5%;
+    }
+}
+@keyframes slideRight2 {
+    0%{
+        left: 0;
+    }
+    100%{
+        margin-left: 30%;
+    }
+}
+@keyframes slideRight3 {
+    0%{
+        left: 0;
+    }
+    100%{
+        margin-left: 45%;
+    }
+}
+@keyframes slideRight4 {
+    0%{
+        left: 0;
+    }
+    100%{
+        margin-left: 60%;
+    }
+}
+
+.slide-link1 {
+    font-size: 25px;
+    animation: slideRight1 1s;
+    margin-left: 0%;
+    animation-fill-mode: both;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 12px 22px;
+    background-color: rgb(230,158,184);
+    border-radius: 20px;
+}
+.slide-link2 {
+    font-size: 25px;
+    animation: slideRight2 1s;
+    margin-left: 0%;
+    animation-fill-mode: both;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 12px 22px;
+    background-color: rgb(230,158,184);
+    border-radius: 20px;
+}
+.slide-link3 {
+    font-size: 25px;
+    animation: slideRight3 1s;
+    margin-left: 0%;
+    animation-fill-mode: both;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 12px 22px;
+    background-color: rgb(230,158,184);
+    border-radius: 20px;
+}
+.slide-link4 {
+    font-size: 25px;
+    animation: slideRight4 1s;
+    margin-left: 0%;
+    animation-fill-mode: both;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 12px 22px;
+    background-color: rgb(230,158,184);
+    border-radius: 20px;
+}
+
+.slide-link1:hover {text-decoration: underline;}
+.slide-link2:hover {text-decoration: underline;}
+.slide-link3:hover {text-decoration: underline;}
+.slide-link4:hover {text-decoration: underline;}
+
+.br-links {
+    content : '';
+    display: block;
+    margin-bottom: 25px;
+}
+
+.img-right {
+    z-index: -1;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
